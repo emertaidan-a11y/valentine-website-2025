@@ -72,6 +72,15 @@ const CONFIG = {
         bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
     },
+
+    music: {
+    enabled: true,
+    autoplay: true,
+    musicUrl: "https://res.cloudinary.com/dcaamklwa/video/upload/v1769634073/Taylor_Swift_-_You_Belong_With_Me_Lyrics_zpczar.mp3", // Paste your URL here
+    startText: "🎵 Play Music",
+    stopText: "🔇 Stop Music",
+    volume: 0.5
+    }
 };
 
 // Don't modify anything below this line unless you know what you're doing
